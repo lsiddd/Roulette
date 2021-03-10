@@ -2,11 +2,11 @@
 
 #include "roulette.h"
 #include "number.h"
+#include "log.h"
 
-#define LOG(x) std::cout << x << std::endl
-
-int main()
+int main(int argc, char **argv)
 {
-    Number zero(0);
-    Roulette();
+    Number n(0);
+    LOG(n);
+    Roulette roulette();
 }
